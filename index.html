@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div id="wrapper">
-    <header>
-        <menu>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-        </menu>
-    </header>
-    <main>
+<main id="main">
+    <div id="header">
+        <header>
+            <menu>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </menu>
+        </header>
+    </div>
+
+    <div id="content">
         <h1>Personal Homepage</h1>
         <p>
             Text for the main home page would go here.
@@ -25,10 +28,45 @@
         <p>
             What a situation we find ourselves in today.
         </p>
-    </main>
-    <footer>
-        <small>&copy; Copyright 2020, Nicholas Thibault</small>
-    </footer>
-</div>
+        <footer>
+            <small>&copy; Copyright 2020, Nicholas Thibault</small>
+        </footer>
+    </div>
+
+    <div id="sidebar">
+        <div id="card1" class="card one">
+            <div class="title">
+                <h2>Card Title</h2>
+            </div>
+            <div class="image">
+                <img src="images/cdp.png" alt="cacodemon pog">
+            </div>
+            <div class="body">
+                <p>
+                    A cacodemon pogging.
+                    A pretty odd picture the say the least, but it does show understanding of the material we covered in class.
+                    At least, I believe so.
+                </p>
+            </div>
+        </div>
+        <div id="card2" class="card mt-6">
+            <div class="title">
+                <h2>Card Title</h2>
+            </div>
+            <div class="image">
+                <img src="images/cdp.png" alt="cacodemon pog">
+            </div>
+            <div class="body mt-1">
+                <p>
+                    A cacodemon pogging.
+                    A pretty odd picture the say the least, but it does show understanding of the material we covered in class.
+                    At least, I believe so.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</main>
+
 </body>
 </html>
